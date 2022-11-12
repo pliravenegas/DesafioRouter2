@@ -1,0 +1,141 @@
+header {
+  background: #242F9B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+header h3 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 1rem;
+  color: #FAC213;
+}
+
+a.active {
+  border-bottom: 2px solid #5432D3;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.pokeamigos {
+  width: 100%;
+  max-width: 500px;
+}
+
+.pkmn-select {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.50rem 1rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+  color: black;
+  border-radius: 10px;
+ background: #e5d2d2;
+}
+
+.pkmn-select option {
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.boton {
+  display: block;
+  background: #241E92;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  margin-top: 1.25rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 4rem;
+  background: #31087B;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  padding: 1rem;
+  border-radius: 10px;
+  }
+
+.card h3 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #F0A500;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.card img {
+  width: 300px;
+}
+
+.card .types {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .types p {
+  text-transform: capitalize;
+  margin: 0.5rem;
+  color: #F0A500;
+  font-size: 25px;
+}
+
+.card col {
+  width: 50%;
+  text-align: center;
+}
+
+.card .stats {
+  text-align: left;
+  color: #F0A500;
+  font-size: 25px;
+}
+
+.card .stats p {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.card .stats p span {
+  font-weight: 600;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
